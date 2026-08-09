@@ -41,20 +41,5 @@
 <img width="954" height="791" alt="屏幕截图 2026-08-09 155706" src="https://github.com/user-attachments/assets/ef658911-4461-45e9-bc37-08b8fae78fd5" />
 <img width="938" height="695" alt="屏幕截图 2026-08-09 155712" src="https://github.com/user-attachments/assets/1dffefe3-efdc-4844-8b03-e069c6af49b6" />
 
-### 示例
-# 《离散数学及其应用》（原书第8版）第1章关键总结
 
-> 来源：离散数学及其应用（原书第8版） (Kenneth H.Rosen) (Z-Library).pdf
-> 章节：第1章 基础：逻辑和证明（印刷页 1–101，约 PDF page 31–131）
-> 提取方式：**AI 视觉逐页识读**（本书为全图片扫描版，文本层为空，按 Step 2.6 流程处理）
-> 生成日期：2026-08-09
-
-> ⚠️ **说明**：本书是**扫描版 PDF**（`is_scanned=true`，无文字层），skill 走 **Step 2.6 路径**：用 `export_images.py` 渲染关键页 → 多模态 Read 工具识读 → 整理总结。所有"原文"摘录为 AI 视觉识读结果，已对照印刷版确认页码。图示内容以文字描述代替，因图片本身无法被字符化。
-
----
-
-
----
-
-*本总结由 ebook-reader skill 生成：detect_math_code.py 跳过（扫描版无文本层）→ Step 2.6 渲染 PDF 关键页面 PNG → Read 工具（多模态 AI 视觉）逐页识读 → 整理为按节总结。思维导图用 Mermaid 语法（Typora / VS Code / GitHub 可直接渲染）。*
 
