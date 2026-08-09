@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="850" viewBox="0 0 900 850" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif">
+  <defs>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#777"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="850" fill="#ffffff"/>
+
+  <!-- Root -->
+  <rect x="20" y="378" width="160" height="74" rx="12" fill="#34495E" stroke="#2C3E50" stroke-width="2"/>
+  <text x="100" y="408" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">第二章</text>
+  <text x="100" y="430" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">补体通路</text>
+
+  <!-- Level 1 -->
+  <g>
+    <rect x="210" y="108" width="170" height="54" rx="10" fill="#FFE08A" stroke="#B8860B" stroke-width="2"/>
+    <text x="295" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">三条激活途径</text>
+
+    <rect x="210" y="383" width="170" height="54" rx="10" fill="#FFE08A" stroke="#B8860B" stroke-width="2"/>
+    <text x="295" y="415" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">共同下游</text>
+
+    <rect x="210" y="648" width="170" height="54" rx="10" fill="#FFE08A" stroke="#B8860B" stroke-width="2"/>
+    <text x="295" y="680" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">调控</text>
+  </g>
+
+  <!-- Level 2 -->
+  <g font-size="13" fill="#1B2631">
+    <rect x="430" y="58" width="250" height="46" rx="8" fill="#FCF3CF" stroke="#B8860B"/><text x="555" y="86" text-anchor="middle">凝集素途径：MBL/纤维胶凝蛋白</text>
+    <rect x="430" y="128" width="250" height="46" rx="8" fill="#FCF3CF" stroke="#B8860B"/><text x="555" y="156" text-anchor="middle">经典途径：C1q 经抗体 Fc</text>
+    <rect x="430" y="198" width="250" height="46" rx="8" fill="#FCF3CF" stroke="#B8860B"/><text x="555" y="226" text-anchor="middle">旁路途径：C3 tickover</text>
+
+    <rect x="430" y="318" width="250" height="46" rx="8" fill="#D5F5E3" stroke="#2E7D32"/><text x="555" y="346" text-anchor="middle">C3b 调理吞噬</text>
+    <rect x="430" y="383" width="250" height="46" rx="8" fill="#D5F5E3" stroke="#2E7D32"/><text x="555" y="411" text-anchor="middle">C5 转换酶</text>
+    <rect x="430" y="448" width="250" height="46" rx="8" fill="#D5F5E3" stroke="#2E7D32"/><text x="555" y="476" text-anchor="middle">过敏毒素 C3a / C5a</text>
+    <rect x="430" y="513" width="250" height="46" rx="8" fill="#D5F5E3" stroke="#2E7D32"/><text x="555" y="541" text-anchor="middle">MAC 裂解病原</text>
+
+    <rect x="430" y="588" width="250" height="46" rx="8" fill="#FADBD8" stroke="#B03A2E"/><text x="555" y="616" text-anchor="middle">硫酯键开关</text>
+    <rect x="430" y="653" width="250" height="46" rx="8" fill="#FADBD8" stroke="#B03A2E"/><text x="555" y="681" text-anchor="middle">DAF / MCP / CR1</text>
+    <rect x="430" y="718" width="250" height="46" rx="8" fill="#FADBD8" stroke="#B03A2E"/><text x="555" y="746" text-anchor="middle">I 因子 / H 因子 / C4BP</text>
+    <rect x="430" y="783" width="250" height="46" rx="8" fill="#FADBD8" stroke="#B03A2E"/><text x="555" y="811" text-anchor="middle">C1INH</text>
+  </g>
+
+  <!-- Links -->
+  <g stroke="#777" stroke-width="1.6" fill="none" marker-end="url(#a2)">
+    <line x1="180" y1="410" x2="208" y2="135"/>
+    <line x1="180" y1="415" x2="208" y2="410"/>
+    <line x1="180" y1="450" x2="208" y2="675"/>
+
+    <line x1="380" y1="135" x2="428" y2="81"/>
+    <line x1="380" y1="135" x2="428" y2="151"/>
+    <line x1="380" y1="135" x2="428" y2="221"/>
+
+    <line x1="380" y1="410" x2="428" y2="341"/>
+    <line x1="380" y1="410" x2="428" y2="406"/>
+    <line x1="380" y1="410" x2="428" y2="471"/>
+    <line x1="380" y1="410" x2="428" y2="536"/>
+
+    <line x1="380" y1="675" x2="428" y2="611"/>
+    <line x1="380" y1="675" x2="428" y2="676"/>
+    <line x1="380" y1="675" x2="428" y2="741"/>
+    <line x1="380" y1="675" x2="428" y2="806"/>
+  </g>
+</svg>

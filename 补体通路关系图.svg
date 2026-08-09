@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="800" viewBox="0 0 1060 800" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#444"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1060" height="800" fill="#ffffff"/>
+  <text x="530" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">补体三条激活途径及其汇合（第 2 章 p.38–45）</text>
+
+  <!-- TOP: three pathways -->
+  <g>
+    <rect x="30" y="56" width="300" height="66" rx="10" fill="#FFE08A" stroke="#B8860B" stroke-width="2"/>
+    <text x="180" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">凝集素途径</text>
+    <text x="180" y="106" text-anchor="middle" font-size="12" fill="#333">MBL / 纤维胶凝蛋白 → MASP-2</text>
+
+    <rect x="380" y="56" width="300" height="66" rx="10" fill="#FFE08A" stroke="#B8860B" stroke-width="2"/>
+    <text x="530" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">经典途径</text>
+    <text x="530" y="106" text-anchor="middle" font-size="12" fill="#333">C1q·C1r·C1s（经抗体Fc/CRP/直结）</text>
+
+    <rect x="730" y="56" width="300" height="66" rx="10" fill="#FFE08A" stroke="#B8860B" stroke-width="2"/>
+    <text x="880" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">旁路途径</text>
+    <text x="880" y="106" text-anchor="middle" font-size="12" fill="#333">C3 自发水解(tickover) 或 已沉积 C3b</text>
+  </g>
+
+  <!-- C3 convertases -->
+  <g>
+    <rect x="230" y="190" width="250" height="58" rx="10" fill="#B7E4B0" stroke="#2E7D32" stroke-width="2"/>
+    <text x="355" y="224" text-anchor="middle" font-size="15" font-weight="bold" fill="#1B5E20">C4b2a（C3 转换酶）</text>
+
+    <rect x="755" y="190" width="250" height="58" rx="10" fill="#B7E4B0" stroke="#2E7D32" stroke-width="2"/>
+    <text x="880" y="224" text-anchor="middle" font-size="15" font-weight="bold" fill="#1B5E20">C3bBb（C3 转换酶）</text>
+  </g>
+
+  <!-- C3 cleavage -->
+  <rect x="360" y="320" width="340" height="62" rx="10" fill="#B7E4B0" stroke="#2E7D32" stroke-width="2"/>
+  <text x="530" y="346" text-anchor="middle" font-size="15" font-weight="bold" fill="#1B5E20">切割 C3</text>
+  <text x="530" y="368" text-anchor="middle" font-size="13" fill="#1B5E20">→ C3b（共价沉积）+ C3a</text>
+
+  <!-- C3b opsonin -->
+  <rect x="40" y="470" width="300" height="60" rx="10" fill="#A9D0F5" stroke="#1F618D" stroke-width="2"/>
+  <text x="190" y="496" text-anchor="middle" font-size="14" font-weight="bold" fill="#154360">C3b 沉积 = 调理素</text>
+  <text x="190" y="518" text-anchor="middle" font-size="12" fill="#1B2631">CR1/CR3 促吞噬细胞摄取</text>
+
+  <!-- C5 convertase -->
+  <rect x="360" y="470" width="340" height="58" rx="10" fill="#B7E4B0" stroke="#2E7D32" stroke-width="2"/>
+  <text x="530" y="503" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20">C5 转换酶 (C4b2a3b / C3bBb3b)</text>
+
+  <!-- C5 cleavage -->
+  <rect x="350" y="600" width="360" height="62" rx="10" fill="#B7E4B0" stroke="#2E7D32" stroke-width="2"/>
+  <text x="530" y="626" text-anchor="middle" font-size="15" font-weight="bold" fill="#1B5E20">切割 C5</text>
+  <text x="530" y="648" text-anchor="middle" font-size="13" fill="#1B5E20">→ C5a + C5b</text>
+
+  <!-- C3a -->
+  <rect x="800" y="330" width="240" height="52" rx="10" fill="#D7BDE2" stroke="#7B2D8B" stroke-width="2"/>
+  <text x="920" y="361" text-anchor="middle" font-size="13" font-weight="bold" fill="#5B2C6F">C3a（过敏毒素→炎症）</text>
+
+  <!-- C5a -->
+  <rect x="730" y="600" width="300" height="56" rx="10" fill="#D7BDE2" stroke="#7B2D8B" stroke-width="2"/>
+  <text x="880" y="626" text-anchor="middle" font-size="13" font-weight="bold" fill="#5B2C6F">C5a（强过敏毒素→炎症/招募）</text>
+
+  <!-- MAC -->
+  <rect x="350" y="710" width="360" height="60" rx="10" fill="#F5B7B1" stroke="#B03A2E" stroke-width="2"/>
+  <text x="530" y="736" text-anchor="middle" font-size="14" font-weight="bold" fill="#7B241C">C5b + C6–C9 → MAC → 裂解病原</text>
+
+  <!-- ARROWS -->
+  <path d="M180,122 Q250,150 355,190" fill="none" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M530,122 Q460,150 355,190" fill="none" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M880,122 Q900,160 880,190" fill="none" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <path d="M355,248 Q430,285 530,320" fill="none" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M880,248 Q700,285 530,320" fill="none" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <line x1="530" y1="382" x2="530" y2="468" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="700" y1="351" x2="798" y2="356" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M360,351 Q320,420 338,470" fill="none" stroke="#1F618D" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="530" y1="528" x2="530" y2="598" stroke="#444" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="710" y1="631" x2="728" y2="628" stroke="#7B2D8B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="530" y1="662" x2="530" y2="708" stroke="#B03A2E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- small edge labels -->
+  <text x="250" y="160" font-size="11" fill="#666">识别→启动</text>
+  <text x="700" y="160" font-size="11" fill="#666">自动激活</text>
+  <text x="545" y="455" font-size="11" fill="#666">C3b + 转换酶</text>
+  <text x="210" y="430" font-size="11" fill="#1F618D">硫酯键共价结合</text>
+
+  <text x="530" y="788" text-anchor="middle" font-size="12" fill="#555">三条途径在「C3 转换酶 → C3b 沉积」处汇合；C3b 的硫酯键须迅速共价结合病原表面才活化，否则被水解失活（正常调控）。</text>
+</svg>
